@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array en Pantalla</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="display-4">BIENVENIDO</h1>
+        <p class="lead">En esta seccion, generara un Arreglo que se pintara en pantalla</p>
+        <hr class="my-4">
+        <p>Ingrese los varoles de filas y columnas, respectivamente</p>
+        <p>Recuerde que si la fila es impar, se sumaran los dos valores del centro por cada fila para hacer las operaciones de suma central</p>
+
+        <!-- <input type="numbers" id="rows" placeholder="#Filas">
+        <input type="number" id="cols" placeholder="#Columnas">
+        <button class="btn btn-primary" id="btn">Generar</button> -->
+    </div>
+
+    <h2>Representacion en tabla</h2>
+
+    <table class="table table-hover">
+        <thead class="text-center thead-dark">
+            <tr id="cols">
+
+            </tr>
+        </thead>
+
+        <tbody id="rows" class="text-center">
+
+        </tbody>
+    </table>
+
+    <div class="bg-info display-4 text-center ">
+        <div id="sumaFisrt">
+
+        </div>
+        <div id="sumaCenter">
+
+        </div>
+        <div id="sumaEnds">
+
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
